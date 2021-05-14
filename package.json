@@ -1,7 +1,7 @@
 {
-  "name": "express",
+  "name": "observerjs",
   "description": "Fast, unopinionated, minimalist web framework",
-  "version": "4.17.1",
+  "version": "1.0.0",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
@@ -13,7 +13,10 @@
     "Young Jae Sim <hanul@hanul.me>"
   ],
   "license": "MIT",
-  "repository": "expressjs/express",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expressjs/express.git"
+  },
   "homepage": "http://expressjs.com/",
   "keywords": [
     "express",
@@ -95,5 +98,14 @@
     "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
     "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
+  },
+  "bugs": {
+    "url": "https://github.com/expressjs/express/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
