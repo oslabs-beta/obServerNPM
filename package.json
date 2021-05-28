@@ -1,9 +1,12 @@
 {
   "name": "observerjs",
   "description": "Fast, unopinionated, minimalist web framework",
-  "version": "1.0.0",
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "version": "1.0.1",
   "contributors": [
+    "Julia Collins <julia.col@protonmail.com>",
+    "Eric Wilding <>",
+    "Josh Roberts <>",
+    "Ashley Pean <>",
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
     "Ciaran Jessup <ciaranj@gmail.com>",
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
@@ -15,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/expressjs/express.git"
+    "url": "git+https://github.com/oslabs-beta/obServerNPM"
   },
   "homepage": "http://expressjs.com/",
   "keywords": [
@@ -100,7 +103,7 @@
     "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
   },
   "bugs": {
-    "url": "https://github.com/expressjs/express/issues"
+    "url": "https://github.com/oslabs-beta/obServerNPM/issues"
   },
   "main": "index.js",
   "directories": {
