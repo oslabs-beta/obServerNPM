@@ -3,10 +3,10 @@
   "description": "Fast, unopinionated, minimalist web framework",
   "version": "1.0.1",
   "contributors": [
+    "Eric Wilding <ewilding8@gmail.com>",
     "Julia Collins <julia.col@protonmail.com>",
-    "Eric Wilding <>",
-    "Josh Roberts <>",
-    "Ashley Pean <>",
+    "Josh Roberts <josh@quantumspot.io>",
+    "Ashley Pean <Pean.ashley@gmail.com>",
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
     "Ciaran Jessup <ciaranj@gmail.com>",
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
